@@ -2,11 +2,13 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/avowkind/ckanext-pfr.svg?branch=master
-    :target: https://travis-ci.org/avowkind/ckanext-pfr
+.. image:: https://travis-ci.com/PlantandFoodResearch/ckanext-pfr.svg?token=Kpqpmk91fYg5k9hdqK3y&branch=master
+    :target: https://travis-ci.com/PlantandFoodResearch/ckanext-pfr
+    :alt: Build Status
 
-.. image:: https://coveralls.io/repos/avowkind/ckanext-pfr/badge.png?branch=master
-  :target: https://coveralls.io/r/avowkind/ckanext-pfr?branch=master
+.. image:: https://coveralls.io/repos/github/PlantandFoodResearch/ckanext-pfr/badge.svg?branch=master&t=nMJN8F
+    :target: https://coveralls.io/github/PlantandFoodResearch/ckanext-pfr
+    :alt: Coverage
 
 .. image:: https://pypip.in/download/ckanext-pfr/badge.svg
     :target: https://pypi.python.org/pypi//ckanext-pfr/
@@ -29,8 +31,10 @@
     :alt: License
 
 =============
-ckanext-pfr
+Plant and Food Research CKAN Metadata Catalogue
 =============
+
+**ckanext-pfr**
 
 .. Put a description of your extension here:
    What does it do? What features does it have?
