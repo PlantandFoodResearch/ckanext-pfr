@@ -1,4 +1,4 @@
-Demonstrates that we can override any page CSS with PFR colours.account-masthead
+/* Demonstrates that we can override any page CSS with PFR colours.account-masthead */
 
 .account-masthead {
   background-color: rgb(138,189,36);
