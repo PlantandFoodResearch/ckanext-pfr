@@ -2,8 +2,8 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/PlantandFoodResearch/ckanext-pfr.svg?branch=master
-    :target: https://travis-ci.org/PlantandFoodResearch/ckanext-pfr
+.. image:: https://travis-ci.com/PlantandFoodResearch/ckanext-pfr.svg?token=Kpqpmk91fYg5k9hdqK3y&branch=master
+    :target: https://travis-ci.com/PlantandFoodResearch/ckanext-pfr
 
 .. image:: https://coveralls.io/repos/PlantandFoodResearch/ckanext-pfr/badge.png?branch=master
   :target: https://coveralls.io/r/PlantandFoodResearch/ckanext-pfr?branch=master
