@@ -4,9 +4,11 @@
 
 .. image:: https://travis-ci.com/PlantandFoodResearch/ckanext-pfr.svg?token=Kpqpmk91fYg5k9hdqK3y&branch=master
     :target: https://travis-ci.com/PlantandFoodResearch/ckanext-pfr
+    :alt: Build Status
 
-.. image:: https://coveralls.io/repos/PlantandFoodResearch/ckanext-pfr/badge.png?branch=master
-  :target: https://coveralls.io/r/PlantandFoodResearch/ckanext-pfr?branch=master
+.. image:: https://coveralls.io/repos/github/PlantandFoodResearch/ckanext-pfr/badge.svg?branch=master&t=nMJN8F
+    :target: https://coveralls.io/github/PlantandFoodResearch/ckanext-pfr
+    :alt: Coverage
 
 .. image:: https://pypip.in/download/ckanext-pfr/badge.svg
     :target: https://pypi.python.org/pypi//ckanext-pfr/
