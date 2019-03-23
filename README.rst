@@ -29,8 +29,10 @@
     :alt: License
 
 =============
-ckanext-pfr
+Plant and Food Research CKAN Metadata Catalogue
 =============
+
+**ckanext-pfr**
 
 .. Put a description of your extension here:
    What does it do? What features does it have?
