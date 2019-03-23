@@ -2,11 +2,11 @@
    these badges work. The necessary Travis and Coverage config files have been
    generated for you.
 
-.. image:: https://travis-ci.org/avowkind/ckanext-pfr.svg?branch=master
-    :target: https://travis-ci.org/avowkind/ckanext-pfr
+.. image:: https://travis-ci.org/PlantandFoodResearch/ckanext-pfr.svg?branch=master
+    :target: https://travis-ci.org/PlantandFoodResearch/ckanext-pfr
 
-.. image:: https://coveralls.io/repos/avowkind/ckanext-pfr/badge.png?branch=master
-  :target: https://coveralls.io/r/avowkind/ckanext-pfr?branch=master
+.. image:: https://coveralls.io/repos/PlantandFoodResearch/ckanext-pfr/badge.png?branch=master
+  :target: https://coveralls.io/r/PlantandFoodResearch/ckanext-pfr?branch=master
 
 .. image:: https://pypip.in/download/ckanext-pfr/badge.svg
     :target: https://pypi.python.org/pypi//ckanext-pfr/
