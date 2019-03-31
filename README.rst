@@ -36,17 +36,18 @@ Plant and Food Research CKAN Metadata Catalogue
 
 **ckanext-pfr**
 
-.. Put a description of your extension here:
-   What does it do? What features does it have?
-   Consider including some screenshots or embedding a video!
-
+This extension adds customisations for Plant and Food research (PFR) Metadata Catalogue
+This includes:
+* Styles
+* organisation
+* data type schemas.
+* controlled vocabularies.
 
 ------------
 Requirements
 ------------
 
-For example, you might want to mention here which versions of CKAN this
-extension works with.
+Tested with CKAN 2.8
 
 
 ------------
