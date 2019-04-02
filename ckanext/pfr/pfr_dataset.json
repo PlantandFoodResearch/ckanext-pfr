@@ -1,0 +1,133 @@
+{
+  "scheming_version": 1,
+  "dataset_type": "dataset",
+  "about": "A reimplementation of the default CKAN dataset schema for PFR",
+  "about_url": "http://github.com/ckan/ckanext-scheming",
+  "dataset_fields": [
+    {
+      "field_name": "title",
+      "label": "Title",
+      "preset": "title",
+      "form_placeholder": "eg. FAR Insecticide residue activity to cereal aphids, Pot Trial, 2016"
+    },
+    {
+      "field_name": "name",
+      "label": "URL",
+      "preset": "dataset_slug",
+      "form_placeholder": "eg. pfr-dataset"
+    },
+    {
+      "field_name": "notes",
+      "label": "Description",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "A free form description of the data"
+    },
+    {
+      "field_name": "tag_string",
+      "label": "Tags",
+      "preset": "tag_string_autocomplete",
+      "form_placeholder": "eg. fruitset, thrips, lure", 
+      "help_text": "What information you think will be useful to help you or others search for your data? Think about what your future self might want to search for, or what would you want to search for in work that you did five years ago. What was the question, study species/system/crop, key effects, methods used, specific machine, site, key methodology..., anything else?"
+    },
+    {
+      "field_name": "license_id",
+      "label": "License",
+      "form_snippet": "license.html",
+      "help_text": "License definitions and additional information can be found at http://opendefinition.org/"
+    },
+    {
+      "field_name": "owner_org",
+      "label": "Organization",
+      "preset": "dataset_organization",
+      "help_text": "Visibility sets whether this metadata record is shown outside of this organisation"
+    },
+    {
+      "field_name": "url",
+      "label": "Further Documentation",
+      "form_placeholder": "e.g https://iplant.plantandfood.co.nz/datamanagement/ExcelTemplatesExamples",
+      "display_property": "foaf:homepage",
+      "display_snippet": "link.html"
+    },
+    {
+      "field_name": "version",
+      "label": "Version",
+      "validators": "ignore_missing unicode package_version_validator",
+      "form_placeholder": "1.0"
+    },
+    {
+      "field_name": "project_code",
+      "label": "Project Code",
+      "form_placeholder": "000000",
+      "help_text": "the project code under which the data was initially collected. If it is unofficial exploratory work this can be left blank"
+    },    
+    {
+      "field_name": "author",
+      "label": "Project Leader",
+      "form_placeholder": "name or comma separated list of names",
+      "display_property": "dc:creator",
+      "help_text": "Project leader name or Author."
+    },
+    {
+      "field_name": "project_leader_email",
+      "label": "Project Leader Email",
+      "form_placeholder": "a.b@plantandfood.co.nz",
+      "display_property": "dc:creator",
+      "display_snippet": "email.html",
+      "display_email_name_field": "author"
+    },
+    {
+      "field_name": "data_steward",
+      "label": "Data Steward",
+      "form_placeholder": "Person responsible for managing and archiving the data",
+      "display_property": "dc:creator"
+    },
+    {
+      "field_name": "project_leader_email",
+      "label": "Data Steward Email",
+      "form_placeholder": "a.b@plantandfood.co.nz",
+      "display_property": "dc:creator",
+      "display_snippet": "email.html",
+      "display_email_name_field": "author"
+    },    
+    {
+      "field_name": "other_researcher",
+      "label": "Contributors",
+      "form_placeholder": "comma separated list of names",
+      "display_property": "dc:contributor"
+    },
+    {
+      "field_name": "biometrician",
+      "label": "Biometrician",
+      "display_property": "dc:contributor"
+    },    
+    {
+      "field_name": "credits",
+      "label": "Credits",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "Who should be acknowledged for collecting the data"
+    }
+  ],
+  "resource_fields": [
+    {
+      "field_name": "url",
+      "label": "URL",
+      "preset": "resource_url_upload"
+    },
+    {
+      "field_name": "name",
+      "label": "Name",
+      "form_placeholder": "eg. Trial of insecticides applied to plants in pots in a greenhouse, with data collected at five assessments"
+    },
+    {
+      "field_name": "description",
+      "label": "Description",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "Some useful notes about the data"
+    },
+    {
+      "field_name": "format",
+      "label": "Format",
+      "preset": "resource_format_autocomplete"
+    }
+  ]
+}

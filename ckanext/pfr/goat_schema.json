@@ -16,6 +16,12 @@
       "form_placeholder": "eg. goat-no-5"
     },
     {
+      "field_name": "age",
+      "label": "Age",
+      "preset": "dataset_slug",
+      "form_placeholder": "eg. goat-no-5"
+    },
+    {
       "field_name": "sex",
       "label": "Sex",
       "help_text": "Male or Female",
