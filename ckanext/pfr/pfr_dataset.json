@@ -62,14 +62,14 @@
     },    
     {
       "field_name": "author",
-      "label": "Project Leader",
+      "label": "Project leader (author)",
       "form_placeholder": "name or comma separated list of names",
       "display_property": "dc:creator",
       "help_text": "Project leader name or Author."
     },
     {
       "field_name": "project_leader_email",
-      "label": "Project Leader Email",
+      "label": "Project leader email",
       "form_placeholder": "a.b@plantandfood.co.nz",
       "display_property": "dc:creator",
       "display_snippet": "email.html",
@@ -77,13 +77,13 @@
     },
     {
       "field_name": "data_steward",
-      "label": "Data Steward",
+      "label": "Data steward",
       "form_placeholder": "Person responsible for managing and archiving the data",
       "display_property": "dc:creator"
     },
     {
-      "field_name": "project_leader_email",
-      "label": "Data Steward Email",
+      "field_name": "data_steward_email",
+      "label": "Data steward email",
       "form_placeholder": "a.b@plantandfood.co.nz",
       "display_property": "dc:creator",
       "display_snippet": "email.html",
