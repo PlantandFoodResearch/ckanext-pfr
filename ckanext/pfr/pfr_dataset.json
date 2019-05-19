@@ -87,7 +87,7 @@
       "form_placeholder": "a.b@plantandfood.co.nz",
       "display_property": "dc:publisher",
       "display_snippet": "email.html",
-      "display_email_name_field": "author"
+      "display_email_name_field": "data_custodian"
     },    
     {
       "field_name": "other_researcher",
