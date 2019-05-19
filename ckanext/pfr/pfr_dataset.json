@@ -79,13 +79,13 @@
       "field_name": "data_custodian",
       "label": "Data Custodian",
       "form_placeholder": "Person responsible for managing and archiving the data",
-      "display_property": "dc:creator"
+      "display_property": "dc:publisher"
     },
     {
       "field_name": "data_custodian_email",
       "label": "Data custodian email",
       "form_placeholder": "a.b@plantandfood.co.nz",
-      "display_property": "dc:creator",
+      "display_property": "dc:publisher",
       "display_snippet": "email.html",
       "display_email_name_field": "author"
     },    
