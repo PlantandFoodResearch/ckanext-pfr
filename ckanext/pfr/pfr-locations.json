@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Auckland",
+    "address": "120 Mt Albert Road, Sandringham, Auckland 1025",
+    "telephone": "+64 9 925 7000"
+  },
+  {
+    "name": "Kerikeri",
+    "address": "121 Keri Downs Road, RD1, Kerikeri 0294",
+    "telephone": "+64 9 901 7360"
+  },
+  {
+    "name": "Pukekohe",
+    "address": "Pukekohe Research Centre, Cronin Rd, Pukekohe 2676",
+    "telephone": "+64 9 904 8204"
+  },
+  {
+    "name": "Ruakura",
+    "address": "Bisley Road, Hamilton 3214",
+    "telephone": "+64 7 959 4430"
+  },
+  {
+    "name": "Te Puke",
+    "address": "412 No 1 Road, RD 2, Te Puke 3182",
+    "telephone": "+64 7 928 9800"
+  },
+  {
+    "name": "Hawke's Bay",
+    "address": "Cnr Crosses and St George's Roads, Havelock North 4130",
+    "telephone": "+64 6 975 8880"
+  },
+  {
+    "name": "Palmerston North",
+    "address": "Food Industry Science Centre, Fitzherbert Science Centre, Batchelar Road, Palmerston North 4410",
+    "telephone": "+64 6 953 7700"
+  },
+  {
+    "name": "Motueka",
+    "address": "55 Old Mill Road, RD 3, Motueka 7198",
+    "telephone": "+64 3 907 3595"
+  },
+  {
+    "name": "Nelson",
+    "address": "Nelson Research Centre, 293 Akersten St, Nelson 7010",
+    "telephone": "+64 3 989 7600"
+  },
+  {
+    "name": "Marlborough",
+    "address": "85 Budge Street, Blenheim 7201",
+    "telephone": "+64 3 984 4310"
+  },
+  {
+    "name": "Lincoln",
+    "address": "Canterbury Agriculture & Science Centre, Gerald St, Lincoln 7608",
+    "telephone": "+64 3 977 7340"
+  },
+  {
+    "name": "Clyde",
+    "address": "990 Earnscleugh Road, RD 1, Alexandra 9391",
+    "telephone": "+64 3 904 7300"
+  },
+  {
+    "name": "Dunedin",
+    "address": "Plant Extracts Research Unit, 4th Floor, Science II Building, Cnr Castle & Union Sts, Dunedin 9016",
+    "telephone": "+64 3 479 8354"
+  },
+  {
+    "name": "Gore",
+    "address": "90 Waimumu Rd, Gore 9774",
+    "telephone": "+64 3 208 9017"
+  },
+  {
+    "name": "Adelaide - Australia",
+    "address": "Hartley Grove, Waite Campus, Urrbrae SA 5064",
+    "telephone": "+61 431 513 418"
+  },
+  {
+    "name": "Melbourne - Australia",
+    "address": "7 Bevan Street, Albert Park, Melbourne VIC 3206",
+    "telephone": "+61 422 610 748"
+  },
+  {
+    "name": "Brisbane - Australia",
+    "address": "M Block Room 581, Queensland University of Technology, Lamington Drive, Gardens Point Campus, Brisbane QLD 4000",
+    "telephone": "+61 424 513 031"
+  },
+  {
+    "name": "Davis - USA",
+    "address": "430 F Street, Suite F, Davis CA 95616, USA",
+    "telephone": "+1 530 758 1612"
+  }
+]

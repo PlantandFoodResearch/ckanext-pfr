@@ -99,6 +99,91 @@
       "field_name": "biometrician",
       "label": "Biometrician",
       "display_property": "dc:contributor"
+    },
+    {
+      "field_name": "site",
+      "label": "PFR Site",
+      "help_text": "Regional site",
+      "help_inline": true,
+      "preset": "select",
+      "choices": [
+        {
+          "value": "none",
+          "label": "Not based at PFR site"
+        },
+        {
+          "value": "Auckland",
+          "label": "Auckland"
+        },
+        {
+          "value": "Kerikeri",
+          "label": "Kerikeri"
+        },
+        {
+          "value": "Pukekohe",
+          "label": "Pukekohe"
+        },
+        {
+          "value": "Ruakura",
+          "label": "Ruakura"
+        },
+        {
+          "value": "Te Puke",
+          "label": "Te Puke"
+        },
+        {
+          "value": "Hawke's Bay",
+          "label": "Hawke's Bay"
+        },
+        {
+          "value": "Palmerston North",
+          "label": "Palmerston North"
+        },
+        {
+          "value": "Motueka",
+          "label": "Motueka"
+        },
+        {
+          "value": "Nelson",
+          "label": "Nelson"
+        },
+        {
+          "value": "Marlborough",
+          "label": "Marlborough"
+        },
+        {
+          "value": "Lincoln",
+          "label": "Lincoln"
+        },
+        {
+          "value": "Clyde",
+          "label": "Clyde"
+        },
+        {
+          "value": "Dunedin",
+          "label": "Dunedin"
+        },
+        {
+          "value": "Gore",
+          "label": "Gore"
+        },
+        {
+          "value": "Adelaide - Australia",
+          "label": "Adelaide - Australia"
+        },
+        {
+          "value": "Melbourne - Australia",
+          "label": "Melbourne - Australia"
+        },
+        {
+          "value": "Brisbane - Australia",
+          "label": "Brisbane - Australia"
+        },
+        {
+          "value": "Davis - USA",
+          "label": "Davis - USA"
+        }
+      ]      
     },    
     {
       "field_name": "credits",
