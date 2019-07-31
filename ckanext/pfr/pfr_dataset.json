@@ -1,104 +1,97 @@
 {
   "scheming_version": 1,
   "dataset_type": "dataset",
-  "about": "A reimplementation of the default CKAN dataset schema for PFR",
+  "about": "Plant and Food Research NZ - Metadata Schema",
   "about_url": "http://github.com/ckan/ckanext-scheming",
   "dataset_fields": [
     {
       "field_name": "title",
       "label": "Title",
       "preset": "title",
-      "form_placeholder": "eg. FAR Insecticide residue activity to cereal aphids, Pot Trial, 2016"
+      "form_placeholder": "e.g. FAR Insecticide residue activity to cereal aphids, Pot Trial, 2016"
     },
     {
       "field_name": "name",
       "label": "URL",
       "preset": "dataset_slug",
-      "form_placeholder": "eg. pfr-dataset"
+      "form_placeholder": "e.g. pfr-dataset"
     },
     {
       "field_name": "notes",
       "label": "Description",
       "form_snippet": "markdown.html",
-      "form_placeholder": "A free form description of the data"
+      "form_placeholder": "Describe the when, where, how and why for this dataset."
     },
     {
       "field_name": "tag_string",
-      "label": "Tags",
+      "label": "Keywords",
       "preset": "tag_string_autocomplete",
-      "form_placeholder": "eg. fruitset, thrips, lure", 
+      "form_placeholder": "e.g. fruitset, thrips, lure", 
       "help_text": "What information you think will be useful to help you or others search for your data? Think about what your future self might want to search for, or what would you want to search for in work that you did five years ago. What was the question, study species/system/crop, key effects, methods used, specific machine, site, key methodology..., anything else?"
-    },
-    {
-      "field_name": "license_id",
-      "label": "License",
-      "form_snippet": "license.html",
-      "help_text": "License definitions and additional information can be found at http://opendefinition.org/"
-    },
-    {
-      "field_name": "owner_org",
-      "label": "Organization",
-      "preset": "dataset_organization",
-      "help_text": "Visibility sets whether this metadata record is shown outside of this organisation"
-    },
-    {
-      "field_name": "url",
-      "label": "Further Documentation",
-      "form_placeholder": "e.g https://iplant.plantandfood.co.nz/datamanagement/ExcelTemplatesExamples",
-      "display_property": "foaf:homepage",
-      "display_snippet": "link.html"
-    },
-    {
-      "field_name": "version",
-      "label": "Version",
-      "validators": "ignore_missing unicode package_version_validator",
-      "form_placeholder": "1.0"
     },
     {
       "field_name": "project_code",
       "label": "Project Code",
-      "form_placeholder": "000000",
-      "help_text": "the project code under which the data was initially collected. If it is unofficial exploratory work this can be left blank"
-    },    
+      "form_placeholder": "C/000000/00",
+      "help_text": "The project code under which the data was initially collected. If it is unofficial exploratory work this can be left blank, Other codes can be entered further down"
+    },
     {
       "field_name": "author",
-      "label": "Project leader (author)",
-      "form_placeholder": "name or comma separated list of names",
-      "display_property": "dc:creator",
-      "help_text": "Project leader name or Author."
-    },
-    {
-      "field_name": "project_leader_email",
-      "label": "Project leader email",
-      "form_placeholder": "a.b@plantandfood.co.nz",
-      "display_property": "dc:creator",
-      "display_snippet": "email.html",
-      "display_email_name_field": "author"
-    },
-    {
-      "field_name": "data_custodian",
-      "label": "Data Custodian",
-      "form_placeholder": "Person responsible for managing and archiving the data",
-      "display_property": "dc:publisher"
-    },
-    {
-      "field_name": "data_custodian_email",
-      "label": "Data custodian email",
-      "form_placeholder": "a.b@plantandfood.co.nz",
+      "label": "Project leader",
+      "form_placeholder": "Joseph Banks",
       "display_property": "dc:publisher",
-      "display_snippet": "email.html",
-      "display_email_name_field": "data_custodian"
+      "help_text": "Project leader for the code as entered above and as in SAP"
+    },
+    {
+      "field_name": "lead_researcher",
+      "label": "Lead Researcher",
+      "form_placeholder": "Joseph Banks",
+      "display_property": "dc:creator",
+      "help_text": "Person leading this piece of research, may be the same as project leader."
     },    
     {
-      "field_name": "other_researcher",
-      "label": "Contributors",
-      "form_placeholder": "comma separated list of names",
+      "field_name": "data_custodian",
+      "label": "Data custodian",
+      "form_placeholder": "Charles Darwin",
+      "help_text": "Person responsible for the management of the data (usually not the data steward).",
       "display_property": "dc:contributor"
     },
     {
-      "field_name": "biometrician",
-      "label": "Biometrician",
+      "field_name": "data_specialist",
+      "label": "Data specialist",
+      "form_placeholder": "Ronald Fisher",
+      "help_text": "Statistician/Biometrician/Bioinformatician/ other informatician.",
       "display_property": "dc:contributor"
+    },
+
+    {
+      "field_name": "other_codes",
+      "label": "Other project codes",
+      "display_property": "dc:contributor",
+      "help_text": "List of other projects using this data, may be empty"
+    },
+    {
+      "field_name": "funding_source",
+      "label": "Funding source",
+      "help_text": "e.g. SSIF, Commercial , as listed in SAP"
+    },    
+    {
+      "field_name": "other_researchers",
+      "label": "Other researchers",
+      "form_placeholder": "role: name, role: name",
+      "display_property": "dc:contributor",
+      "help_text": "Other researchers and contributing staff"
+    },
+    {
+      "field_name": "tracking_codes",
+      "label": "Tracking codes",
+      "help_text": "e.g. Milestones or Objective numbers"
+    },
+    {
+      "field_name": "location",
+      "label": "Location",
+      "display_property": "dc:coverage",
+      "help_text": "Use site select list below or enter GPS location or plot locoation"
     },
     {
       "field_name": "site",
@@ -185,11 +178,18 @@
         }
       ]      
     },    
+
     {
-      "field_name": "credits",
-      "label": "Credits",
-      "form_snippet": "markdown.html",
-      "form_placeholder": "Who should be acknowledged for collecting the data"
+      "field_name": "license_id",
+      "label": "License",
+      "form_snippet": "license.html",
+      "help_text": "License definitions and additional information can be found at http://opendefinition.org/"
+    },
+    {
+      "field_name": "owner_org",
+      "label": "Organization",
+      "preset": "dataset_organization",
+      "help_text": "Use PFR collection unless you need more control over visiblity"
     }
   ],
   "resource_fields": [
