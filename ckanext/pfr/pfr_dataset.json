@@ -36,6 +36,19 @@
       "help_text": "The project code under which the data was initially collected. If it is unofficial exploratory work this can be left blank, Other codes can be entered further down"
     },
     {
+      "field_name": "project_code_name",
+      "label": "Project code and Title",
+      "help_text": "Test lookup of project codes",
+      "help_inline": true,
+      "preset": "select",
+      "choices_helper": "scheming_datastore_choices",
+      "datastore_choices_resource": "pfr_projects",
+      "datastore_choices_columns": {
+        "value": "External Ref Code",
+        "label": "Name"
+      }
+    },
+    {
       "field_name": "author",
       "label": "Project leader",
       "form_placeholder": "Joseph Banks",
