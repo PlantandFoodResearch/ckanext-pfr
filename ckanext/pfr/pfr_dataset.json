@@ -42,7 +42,7 @@
       "help_inline": true,
       "preset": "select",
       "choices_helper": "scheming_datastore_choices",
-      "datastore_choices_resource": "c72c0765-0fb2-474b-9b96-8f5149af97d4",
+      "datastore_choices_resource": "pfr_projectcodes",
       "datastore_choices_columns": {
         "value": "External Ref Code",
         "label": "Name*"
