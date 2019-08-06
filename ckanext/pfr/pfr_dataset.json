@@ -42,10 +42,10 @@
       "help_inline": true,
       "preset": "select",
       "choices_helper": "scheming_datastore_choices",
-      "datastore_choices_resource": "pfr_projects",
+      "datastore_choices_resource": "c72c0765-0fb2-474b-9b96-8f5149af97d4",
       "datastore_choices_columns": {
         "value": "External Ref Code",
-        "label": "Name"
+        "label": "Name*"
       }
     },
     {
@@ -63,7 +63,7 @@
       "help_text": "Person leading this piece of research, may be the same as project leader."
     },    
     {
-      "field_name": "data_custodian",
+      "field_name": "maintainer",
       "label": "Data custodian",
       "form_placeholder": "Charles Darwin",
       "help_text": "Person responsible for the management of the data (usually not the data steward).",
@@ -87,6 +87,16 @@
       "field_name": "funding_source",
       "label": "Funding source",
       "help_text": "e.g. SSIF, Commercial , as listed in SAP"
+    },
+    {
+      "field_name": "project_start_date",
+      "label": "Project start date",
+      "preset": "date"
+    },
+    {
+      "field_name": "project_end_date",
+      "label": "Project end date",
+      "preset": "date"
     },    
     {
       "field_name": "other_researchers",
