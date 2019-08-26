@@ -38,14 +38,14 @@
     {
       "field_name": "project_code_name",
       "label": "Project code and Title",
-      "help_text": "Test lookup of project codes",
+      "help_text": "Lookup PFR Project code",
       "help_inline": true,
       "preset": "select",
       "choices_helper": "scheming_datastore_choices",
-      "datastore_choices_resource": "pfr_projectcodes",
+      "datastore_choices_resource": "pfr-projectcodes",
       "datastore_choices_columns": {
-        "value": "External Ref Code",
-        "label": "Name*"
+        "value": "project_id",
+        "label": "project_id"
       }
     },
     {
