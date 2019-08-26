@@ -44,8 +44,8 @@
       "choices_helper": "scheming_datastore_choices",
       "datastore_choices_resource": "pfr-projectcodes",
       "datastore_choices_columns": {
-        "value": "project_id",
-        "label": "project_id"
+        "value": "wbs_element_id",
+        "label": "wbs_element_description"
       }
     },
     {
