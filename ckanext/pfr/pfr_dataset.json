@@ -235,7 +235,9 @@
     {
       "field_name": "format",
       "label": "Format",
-      "preset": "resource_format_autocomplete"
+      "preset": "resource_format_autocomplete",
+      "form_placeholder": "eg. XSLX, CSV, PNG",
+      "help_text": "Most common formats are autodetected"
     }
   ]
 }
