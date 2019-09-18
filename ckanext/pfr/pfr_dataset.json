@@ -30,23 +30,10 @@
       "help_text": "What information you think will be useful to help you or others search for your data? Think about what your future self might want to search for, or what would you want to search for in work that you did five years ago. What was the question, study species/system/crop, key effects, methods used, specific machine, site, key methodology..., anything else?"
     },
     {
-      "field_name": "project_code_manual",
+      "field_name": "project_code",
       "label": "Project Code",
       "form_placeholder": "C/000000/00",
       "help_text": "The project code under which the data was initially collected. If it is unofficial exploratory work this can be left blank, Other codes can be entered further down"
-    },
-    {
-      "field_name": "project_code",
-      "label": "Project code",
-      "help_text": "Lookup PFR Project code",
-      "help_inline": true,
-      "preset": "select",
-      "choices_helper": "scheming_datastore_choices",
-      "datastore_choices_resource": "pfr-projectcodes",
-      "datastore_choices_columns": {
-        "value": "wbs_element_id",
-        "label": "wbs_element_id"
-      }
     },
     {
       "field_name": "author",
