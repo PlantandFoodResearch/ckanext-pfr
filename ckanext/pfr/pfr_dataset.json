@@ -101,7 +101,7 @@
       "field_name": "location",
       "label": "Location",
       "display_property": "dc:coverage",
-      "help_text": "Use site select list below or enter GPS location or plot locoation"
+      "help_text": "Use site select list below or enter GPS location or plot location"
     },
     {
       "field_name": "site",
