@@ -1,0 +1,26 @@
+{
+  "scheming_presets_version": 1,
+  "about": "Scheming field presets for PFR",
+  "about_url": "http://github.com/ckan/ckanext-scheming#preset",
+  "presets": [
+    {
+      "preset_name": "pfr_test",
+      "values": {
+        "validators": "ignore_missing unicode",
+        "form_snippet": "pfr_text.html",
+        "display_snippet": "pfr_text.html"
+      }
+    },   
+    {
+      "preset_name": "project_code_autocomplete",
+      "values": {
+        "validators": "unicode",
+        "form_placeholder": "A or B",
+        "form_attrs": {
+          "data-module": "pfr_autocomplete",
+          "data-module-source": "/api/2/util/resource/format_autocomplete?incomplete=?"
+        }
+      }
+    }
+  ]
+}

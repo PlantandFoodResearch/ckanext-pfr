@@ -4,6 +4,12 @@
   "about_url": "http://example.com/the-goat-schema",
   "dataset_fields": [
     {
+      "field_name": "project_code",
+      "label": "Project Code",
+      "preset": "project_code_autocomplete",
+      "form_placeholder": "S/123456/11"
+    },
+    {
       "field_name": "title",
       "label": "Title",
       "preset": "title",
@@ -18,8 +24,7 @@
     {
       "field_name": "age",
       "label": "Age",
-      "preset": "dataset_slug",
-      "form_placeholder": "eg. goat-no-5"
+      "form_placeholder": "4"
     },
     {
       "field_name": "sex",

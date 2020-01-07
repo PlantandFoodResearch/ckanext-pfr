@@ -24,3 +24,30 @@ body {
 .homepage .module-search .tags {
   background-color: rgb(22, 31, 5);
 }
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.active:hover,
+.btn-primary:active:hover
+{
+  background-color: rgb(139, 187, 52);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+  filter: brightness(85%);
+  background-color: rgb(139, 187, 52);
+}
+
+.btn-primary:active:focus {
+  filter: brightness(60%);
+  background-color: rgb(139, 187, 52);
+}
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li a:focus,
+.masthead .navigation .nav-pills li.active a {
+  background-color: #739239;
+}
