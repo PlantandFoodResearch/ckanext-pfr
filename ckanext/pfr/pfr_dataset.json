@@ -69,6 +69,13 @@
       "display_property": "dc:contributor"
     },
     {
+      "field_name": "business_manager",
+      "label": "Business manager",
+      "form_placeholder": "John Manager",
+      "help_text": "Business manager from SAP",
+      "display_property": "dc:contributor"
+    },
+    {
       "field_name": "other_codes",
       "label": "Other project codes",
       "display_property": "dc:contributor",
